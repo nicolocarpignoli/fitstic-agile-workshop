@@ -21,7 +21,7 @@ Esempio:
 
 Negli 'it' va chiamato il metodo con dei parametri in ingresso, che cambiano da 'it' a 'it'.
 Per verificare che il metodo funzioni, vanno fatte delle 'asserzioni'.
-La documentazione di riferimento si trova qua: https://mochajs.org/
+La documentazione di riferimento si trova qua: https://mochajs.org/.
 
 ## Debuggare
 
