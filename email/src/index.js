@@ -10,3 +10,9 @@
 // Se gli errori sono più del 30% della lunghezza della mail stessa: 'La mail inserita è diversa. Riprovare.'
 // Se gli errori sono tra il 15 e il 30% della lunghezza della mail stessa: 'Controlla la mail, alcuni caratteri inseriti non sono gli stessi.'
 // Se gli errori sono meno del 15% della lunghezza della mail stessa: 'La mail risulta leggermente diversa. Controllare.'
+
+var validate = function(email, email2) {
+
+};
+
+module.exports = validate;

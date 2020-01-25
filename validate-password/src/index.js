@@ -12,3 +12,11 @@
 // il metodo deve ritornare true se passa la validazione sopracitata,
 // altrimenti false.
 
+
+var validate = function(username, password) {
+
+};
+
+module.exports = validate;
+
+

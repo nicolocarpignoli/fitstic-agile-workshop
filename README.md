@@ -3,7 +3,7 @@
 ## Prima di iniziare
 
 * Installare nodejs sulla propria macchina (se non è installato: per verificare, lanciare `node -v`)
-* Lanciare `npm install`
+* Lanciare `npm install mocha -g`
 
 ## Avviare l'applicazione
 
@@ -11,7 +11,7 @@
 
 ## Lanciare i test
 
-`node <nome-task/test/index.js`
+`mocha <nome-task/test/index.js`
 
 Come testare: ogni 'it' rappresenta un caso di test, un caso d'uso.
 

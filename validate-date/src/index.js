@@ -7,3 +7,9 @@
 // il metodo deve ritornare true se tutte le validazioni sopracitate,
 // altrimenti false.
 
+
+var validate = function(birthDate) {
+
+};
+
+module.exports = validate;

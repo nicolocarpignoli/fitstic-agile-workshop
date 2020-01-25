@@ -7,3 +7,9 @@
 
 // Si realizzi un metodo che verifica che la stringa in ingresso, come unico parametro
 // sia palindroma, e torna true in caso positivo, altrimenti false.
+
+var validate = function(text) {
+
+};
+
+module.exports = validate;
