@@ -1,7 +1,7 @@
 var assert = require('assert');
 
 describe('Test', function() {
-  describe('login', function() {
+  describe('palindrome', function() {
     it('', function() {
 
     });
