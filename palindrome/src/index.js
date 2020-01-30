@@ -9,8 +9,17 @@
 // sia palindroma, e torna true in caso positivo, altrimenti false.
 
 var validate = function(text) {
+    var i;
+    for(i=0; i<text.length; i++)
+    {
+        console.log(text[i],text[text.length-1-i] )
+        if (text[i] != text[text.length-1-i]){
+            return false
+        }
+    }
+    return true
+}
 
-};
-validate();
+validate('anna');
 
 module.exports = validate;
