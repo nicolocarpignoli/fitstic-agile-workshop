@@ -5,7 +5,6 @@
 // 6 caratteri
 // un carattere fra i seguenti !"£$%%&/()=?^*°§
 // una lettera maiuscola
-// una lettera minuscola
 // non contenga la parola password
 // non contenga lo username
 
@@ -16,6 +15,7 @@
 var validate = function(username, password) {
 
 };
+validate();
 
 module.exports = validate;
 

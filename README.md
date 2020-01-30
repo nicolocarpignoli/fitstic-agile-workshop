@@ -11,7 +11,7 @@
 
 ## Lanciare i test
 
-`mocha <nome-task/test/index.js`
+`npx mocha <nome-task/test/index.js`
 
 Come testare: ogni 'it' rappresenta un caso di test, un caso d'uso.
 

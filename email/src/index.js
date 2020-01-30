@@ -7,12 +7,11 @@
 // L'errore da tornare dipende dal numero di caratteri sbagliati.
 // Tornare un messaggio di questo tipo:
 
-// Se gli errori sono più del 30% della lunghezza della mail stessa: 'La mail inserita è diversa. Riprovare.'
-// Se gli errori sono tra il 15 e il 30% della lunghezza della mail stessa: 'Controlla la mail, alcuni caratteri inseriti non sono gli stessi.'
-// Se gli errori sono meno del 15% della lunghezza della mail stessa: 'La mail risulta leggermente diversa. Controllare.'
+// Se gli errori sono più del 50% della lunghezza della mail stessa: 'La mail inserita è diversa. Riprovare.'
+// Altrimenti: 'Errore generico'.
 
 var validate = function(email, email2) {
-
 };
 
+validate();
 module.exports = validate;

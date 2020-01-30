@@ -11,5 +11,6 @@
 var validate = function(text) {
 
 };
+validate();
 
 module.exports = validate;
