@@ -1,4 +1,4 @@
-// Realizzare una funzione che data in ingresso due stringhe, ovvero username e la password
+// Realizzare una funzione che data in ingresso la pass
 // Controlli che:
 
 // la password abbia almeno:
@@ -12,10 +12,15 @@
 // altrimenti false.
 
 
-var validate = function(username, password) {
-
+var validate = function(password) {
+    if (password.length < 6) {
+        return false;
+    }   
+    
 };
-validate();
+
+
+// validate('sss');
 
 module.exports = validate;
 
