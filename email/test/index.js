@@ -3,10 +3,23 @@ var validate = require('../src/index.js');
 
 describe('Test', function() {
   describe('email', function() {
-    it('', function() {
+
+    if(validate('ciao','ciao'))
+    {
+    it('le stringhe devono essere uguali', function() 
+    {
         // esempio, il test controlla la funzioni torni undefined, perchè non è
         // stata implementata, e non ritorna nulla
-        assert.equal(undefined, undefined);
+        var result = validate('ciao', 'ciao');
+
+        assert.equal(result, true);
     });
+  }
+  else
+    
+      assert.equal(result, false);
   });
-});
+
+
+  });
+

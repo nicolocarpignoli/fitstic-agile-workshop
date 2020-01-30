@@ -11,7 +11,7 @@
 // Altrimenti: 'Errore generico'.
 
 var validate = function(email, email2) {
+   return email == email2;
 };
 
-validate();
 module.exports = validate;
