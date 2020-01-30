@@ -2,14 +2,22 @@
 // Controlli che:
 //
 // la data sia nel formato ggMMYYYY
-// la data sia valida (quindi giorno, mese validi, giorni validi a seconda del mese - per febbraio ok sia 28 che 29)
 // il metodo deve ritornare true se tutte le validazioni sopracitate,
 // altrimenti false.
 
 
 var validate = function(birthDate) {
-
+    if (birthDate.length == 6)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+    
+    
 };
-validate();
+
 
 module.exports = validate;
