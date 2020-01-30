@@ -3,10 +3,13 @@ var validate = require('../src/index.js');
 
 describe('Test', function() {
   describe('palindrome', function() {
-    it('', function() {
-        // esempio, il test controlla la funzioni torni undefined, perchè non è
-        // stata implementata, e non ritorna nulla
-        assert.equal(undefined, undefined);
+    it('è palidroma', function() { 
+        var result = validate('anna');
+        assert.equal(result, true);
     });
+    it('non è palindroma', function() {
+      var result = validate('casa');
+      assert.equal(result, false);
+  });
   });
 });
